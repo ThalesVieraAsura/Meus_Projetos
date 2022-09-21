@@ -1,0 +1,25 @@
+{
+  "name": "pbozzi/correios",
+  "type": "library",
+  "description": "Biblioteca para consulta do CEP nos Correios.",
+  "keywords": ["correios", "cep", "webservice", "api"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Pablo Bozzi",
+      "email": "pablobozzi@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.0.1"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^5.7",
+    "satooshi/php-coveralls": "^1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "pbozzi\\correios\\":"src/"
+    }
+  }
+}
